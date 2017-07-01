@@ -1,0 +1,17 @@
+/* Header */
+.header {
+  display: flex;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+nav.mainnav {
+  display: inline-flex;
+}
+img#logo{
+display:flex;
+}
+h1 {
+  color:MediumAquamarine;
+}
