@@ -5,13 +5,43 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  align-items: center;
 }
-nav.mainnav {
-  display: inline-flex;
+ul#main {
+  display:inline-flex;
+  padding-left: 900px;
 }
+
+ul#main li{
+  list-style: none;
+  margin: 10px;
+}
+
+span{
+  margin-right: 30px;
+}
+
+a:link {
+  color:black;
+}
+
 img#logo{
 display:flex;
+padding-left:20px;
+padding-bottom: 10px;
+padding-top: 10px;
+margin: 0px auto;
+float: left;
+
 }
 h1 {
+  display: flex;
   color:MediumAquamarine;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 30px;
+  margin: auto;
+  width: 80px;
 }
