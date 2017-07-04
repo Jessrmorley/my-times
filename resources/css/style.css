@@ -1,3 +1,5 @@
+
+
 /* Header */
 .header {
   display: flex;
@@ -25,6 +27,10 @@ a:link {
   color:black;
 }
 
+.logo {
+  border: 1px solid black;
+}
+
 img#logo{
 display:flex;
 padding-left:20px;
@@ -44,4 +50,53 @@ h1 {
   padding-top: 30px;
   margin: auto;
   width: 80px;
+}
+
+/* Main Content */
+
+div {
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  border: 1px black solid;
+  width: 1300px;
+}
+
+.large {
+  display: flex;
+  border: 1px black solid;
+  width: 630px;
+  margin: 10px;
+}
+
+#column1 {
+  border: 2px black solid;
+}
+
+p#column1 {
+  display: block;
+}
+
+.medium {
+  display: inline-flex;
+  border: 1px black solid;
+  width: 300px;
+  margin: 10px;
+}
+
+p#column2{
+  display: block;
+}
+
+.small {
+  display: inline-flex;
+  border: 1px black solid;
+  width: 240px;
+  margin: 10px;
+}
+
+p#column3 {
+display: block;
 }
